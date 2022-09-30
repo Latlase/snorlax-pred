@@ -36,7 +36,7 @@ try:
     results = cursor.fetchall()  # 接傳回值 type: tuple
     gain = results[0][1]
 except:
-    ujson = 2.01
+    gain = 2.01
     logging.error("MySQL can not connect.")
 
 @app.route("/")

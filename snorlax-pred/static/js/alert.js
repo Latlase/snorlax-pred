@@ -1,0 +1,1 @@
+document.getElementById("alert").innerHTML = '<img src="/static/img/fgi.png">'
